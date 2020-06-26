@@ -21,23 +21,23 @@ def get_quote(emotion):
 def get_image(emotion):
     if emotion == "sadness":
         sList = ["https://im.indiatimes.in/content/itimes/photo/2016/Aug/26/1472233327-pug-drunk-on-happiness.jpg?w=1400&h=930&cc=1", "https://media.giphy.com/media/XbxZ41fWLeRECPsGIJ/giphy.gif"]
-        sRandomNum = random.randint(0,len(sList)-1)
+        sRandomNum = random.randint(0, len(sList)-1)
         return sList[sRandomNum]
     elif emotion == "anger":
         aList = ["https://havingtime.com/wp-content/uploads/2017/07/Four-Choices-CALM-People-Never-Make.jpeg", "https://media.giphy.com/media/USbYNzaNRPcMbMwgCz/giphy.gif"]
-        aRandomNum = random.randint(0,len(aList)-1)
+        aRandomNum = random.randint(0, len(aList)-1)
         return aList[aRandomNum]
     elif emotion == "nervous-anxious":
         naList = ["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9EV2YqyI5FXp9j-qqX2KqDzzde-qlM0L73g&usqp=CAU", "https://media.giphy.com/media/VEgYlCul08RTgHacHV/giphy.gif"]
-        naRandomNum = random.randint(0,len(naList)-1)
+        naRandomNum = random.randint(0, len(naList)-1)
         return naList[naRandomNum]
     elif emotion == "frustration":
         fList = ["https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSs61DbVImL8iub5R9xYB7clDJeq7Pg0i2PxQ&usqp=CAU", "https://media.giphy.com/media/3kHz1oN8NfxJJgVgvL/giphy.gif"]
-        fRandomNum = random.randint(0,len(fList)-1)
+        fRandomNum = random.randint(0, len(fList)-1)
         return fList[fRandomNum]
     elif emotion == "jealousy":
         jList = ["https://thumbs.dreamstime.com/b/jealousy-destruction-health-life-symbolized-word-hammer-to-show-negative-aspect-d-illustration-173694750.jpg", "https://media.giphy.com/media/YPVb19Oxbuc13KurWU/giphy.gif"]
-        jRandomNum = random.randint(0,len(jList)-1)
+        jRandomNum = random.randint(0, len(jList)-1)
         return jList[jRandomNum]
     elif emotion == "boredom":
         bList = ["https://www.askideas.com/media/37/Funny-Animal-Laughing-Sea-Lion-Picture.jpg", "https://media.giphy.com/media/fA7GBW5Vai9nsZK94y/giphy.gif"]
